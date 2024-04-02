@@ -1,0 +1,13 @@
+ {{!-- this page is for user post on dashboard --}}
+ {{#each}}
+ <div class="card"> 
+        <div class="card-header">  
+        <h2>{{post_title}}</h2>
+            {{createdAt}}
+        {{!-- date posted --}}
+        </div>
+        <div class="post-content">
+        <p >{{post}}</p>
+    </div>
+    </div>
+    {{/each}}

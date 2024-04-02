@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+}
+
+.nav{
+    height: 180px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.nav div{
+    margin-left: 50px;
+}
+.nav a{
+    font-size: 25px;
+    margin-right: 50px; 
+}
+.nav-text{
+    width:fit-content;
+    margin-left: 80px;
+    border: 3px solid black;
+    border-radius: 1vh;
+    font-size: 40px;
+    box-shadow: 10px 5px 5px black;
+}
+.card{
+    width: 80%;
+    height: max-content;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+    margin-top: 60px;
+}
+.card-header{
+    background-color: aqua;
+    height:50px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.card-header h2{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.card-header h3{
+    margin-right:10px;
+}
+.post-content{
+    height: max-content;
+    font-size: 25px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.card-login{
+    width: 80%;
+    height: max-content;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+    margin-top: 60px;
+}
+.input{
+    width: 80%;
+    height: 28px;
+    margin: 10px;
+}
+.login-header{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.btn-login{
+    margin: 10px;
+    width: 80.5%;
+    height: 30px;
+    color: black;
+    background-color: aqua;
+}
+.sign-up{
+    margin: 10px;
+    font-size: 25px;
+}
+.post-upload {
+    height: 100px;
+    width: 90%;
+    margin: 20px 0 20px 90px;
+    background-color: aliceblue;
+}
+.title-upload {
+    height: 50px;
+    width: 90%;
+    margin: 20px 0 20px 90px;
+    background-color: aliceblue;
+}
+.title {
+    margin-left: 90px;
+    font-size: 30px;
+}
+.btn-update{
+    height: 40px;
+    margin: 15px;
+}
