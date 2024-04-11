@@ -21,7 +21,7 @@ Post.init(
       },
       user_id:{
         type: DataTypes.INTEGER,
-        referances: {
+        references: {
           model: 'user',
           key: 'id',
         },
