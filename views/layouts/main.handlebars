@@ -10,12 +10,12 @@
 </head>
 <body>
     <!-- navbar -->
-    <nav class = nav>
+    <nav class = "nav">
         <div>
      <a href="/">Home</a>
-     <a href="">Dashboard</a>
+     <a href="/dashboard">Dashboard</a>
      {{#if loggedIn}}
-      <a href="/logout">Logout</a>
+       <button id="logout" class="btn-no-style">Logout</button>
       {{else}}
       <a href="/login">Login</a>
       {{/if}}
@@ -26,4 +26,8 @@
     {{{body}}}
 
     </body>
-    <script></script>
+   {{#if loggedIn}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
+
+  </html>

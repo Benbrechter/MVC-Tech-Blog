@@ -16,6 +16,16 @@ if (process.env.JAWSDB_URL) {
       port: 3306
     }
   );
+
+
+// Create the database if it doesn't exist
+sequelize.query(`CREATE DATABASE IF NOT EXISTS \`${process.env.DB_NAME}\`;`)
+.then(() => {
+  console.log('Database created or successfully connected');
+})
+.catch(err => {
+  console.error('Unable to connect to the database:', err);
+});
 }
 
 module.exports = sequelize;
